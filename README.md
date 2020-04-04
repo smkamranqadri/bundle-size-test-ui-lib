@@ -16,7 +16,7 @@ In this example I am using Ant Design, imported button & style and here is the b
 
 ![Ant Design Bundle Size](img/02-antd.png)
 
-## 02-AntD-Modular
+## 03-AntD-Modular
 
 In this example I am using Ant Design, imported only button & it's style and here is the bundle size.
 
@@ -25,3 +25,9 @@ In this example I am using Ant Design, imported only button & it's style and her
 I also tried to import button in two different component and check how it handle duplicate imports, here is the bundle size.
 
 ![Ant Design Modular Bundle Size](img/03-antd-modular-2.png)
+
+## 04-Material UI
+
+In this example I am using Material UI, imported button & linked roboto font in index.html and here is the bundle size.
+
+![Material UI Bundle Size](img/04-material-ui.png)
