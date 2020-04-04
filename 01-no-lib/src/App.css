@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background-color: yellow;
+  color: black;
+}
