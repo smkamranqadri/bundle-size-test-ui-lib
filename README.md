@@ -2,7 +2,16 @@
 
 This is to test how bundle size will effect when using UI libraries.
 
-For the test, I will going to use one component which is button from different lib and share the bundle size.
+For the test, I used one component which is button from different lib and below is the bundle size table, for more info checkout the detail below.
+
+| Library | Chunk CSS | Chunk JS | | Main CSS | Main JS | Run Time JS |
+|---|---|---|---|---|---|---|
+| No Lib | | 39.39 Kb | | 215 B | 489 B | 776 B |
+| Ant Design | 61.62 KB | 58.75 Kb | | 149 B | 501 B | 778 B |
+| Ant Design Modular | 8.83 KB | 58.63 Kb | | 149 B | 528 B | 779 B |
+| Material UI | | 62.27 Kb | | 149 B | 501 B | 776 B |
+| Bootstrap Styled | | 152.41 Kb | | 149 B | 505 B | 783 B |
+
 
 ## 01-No-Lib
 
