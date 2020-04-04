@@ -31,3 +31,9 @@ I also tried to import button in two different component and check how it handle
 In this example I am using Material UI, imported button & linked roboto font in index.html and here is the bundle size.
 
 ![Material UI Bundle Size](img/04-material-ui.png)
+
+## 05-Bootstrap Styled
+
+In this example I am using Bootstrap with Styled Component, imported button and here is the bundle size.
+
+![Bootstrap Styled Bundle Size](img/05-bootstrap-styled.png)
